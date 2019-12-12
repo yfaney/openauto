@@ -14,8 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(46, 52, 54);
-color: rgb(238, 238, 236);</string>
+   <string notr="true">background-color: rgb(46, 52, 54);background-image: url(:/bg_bmw_connected_drive.png);color: rgb(238, 238, 236);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="labelWaitingForDevice">
@@ -28,7 +27,7 @@ color: rgb(238, 238, 236);</string>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; font-style:italic; color:#3465a4;&quot;&gt;Waiting for device...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; font-style:italic; color:#3465a4;&quot;&gt;Waiting for device...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -47,8 +46,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QPushButton" name="pushButtonSettings">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>330</y>
+      <x>423</x>
+      <y>400</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -67,7 +66,7 @@ color: rgb(238, 238, 236);</string>
     <property name="geometry">
      <rect>
       <x>630</x>
-      <y>380</y>
+      <y>400</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -90,77 +89,6 @@ color: rgb(238, 238, 236);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; color:#eeeeec;&quot;&gt;Plug in your device to start AndroidAuto (tm).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelProjectHomePage">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>440</y>
-      <width>271</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/f1xpl/openauto&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;https://github.com/f1xpl/openauto&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelDistractionWarningIcon">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>170</y>
-      <width>31</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ico_warning.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelDistractionWarning">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>130</y>
-      <width>531</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;WARNING!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;Distraction may cause accidents. Do not attempt to operate while driving. Always concentrate on driving and obey Traffic Regulations. You assume total responsibility and risk for using this software.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelCertificationWarning">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>240</y>
-      <width>531</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;This software is not certified by Google Inc. It is created for R&amp;amp;D purposes and may not work as expected by the original authors. Do not use while driving.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ef2929;&quot;&gt;You use this software at your own risk.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="labelCertificationWarningIcon">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>270</y>
-      <width>31</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ico_warning.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="labelCopyrightsInfoIcon">
@@ -192,8 +120,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QPushButton" name="pushButtonToggleCursor">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>230</y>
+      <x>10</x>
+      <y>400</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -211,8 +139,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QPushButton" name="pushButtonWirelessConnection">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>280</y>
+      <x>217</x>
+      <y>400</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -225,22 +153,6 @@ color: rgb(238, 238, 236);</string>
     </property>
     <property name="default">
      <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>370</y>
-      <width>551</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;If you are looking for a Raspberry PI compatible 12V power supply equipped with an ignition switch, visit &lt;/span&gt;&lt;a href=&quot;https://bluewavestudio.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;https://bluewavestudio.io&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
     </property>
    </widget>
   </widget>
